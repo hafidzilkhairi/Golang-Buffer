@@ -1,4 +1,4 @@
-<h1>Tugas 1 Netpro</h1>
+<h1>Tugas 5 Netpro</h1>
 
 <center>
 <h2>Anggota Kelompok</h2>
@@ -8,32 +8,71 @@
 </ol>
 <br/>
 <br/>
-<h2>Hasil kodingan</h2>
+<h2>Pertanyaan dan jawaban</h2>
 </center>
 
 <ol>
 
-<h4><li>Installation</li></h4>
-<p>Clone repo ini, dan aplikasi dapat segera berjalan</p>
+<h4><li>JSON Marshal</li></h4>
+<ul>
+<li>Jalankan program diatas, apakah outputnya (berikan printscreen) dan jelaskan cara kerjanya!</li>
+<center>
+<h5>Jawaban</h5>
+<img src="https://github.com/hafidzilkhairi/Golang-Buffer/blob/task/Screenshots/Marshal.png?raw=true"/>
+<p align="justify">
+Marshal merupakanan suatu proses yang menterjemahkan dari bentuk objek kedalam tipe byte-stream
+</p>
+</center>
+</ul>
 
-<h4><li>Usage</li></h4>
-<ol>
-<li>HTTPWebApplicationCRUD</li>
-<p>
+<h4><li>JSON Unmarshal</li></h4>
 <ul>
-<li>Pastikan terminal telah berada pada direktori aplikasi</li>
-<li>Ketik "go run server.go" untuk menjalankan</li>
+<li>Jalankan program diatas, apakah outputnya (berikan printscreen) dan jelaskan cara kerjanya!</li>
+<center>
+<h5>Jawaban</h5>
+<img src="https://github.com/hafidzilkhairi/Golang-Buffer/blob/task/Screenshots/Unmarshal.png?raw=true"/>
+<p align="justify">
+Unmarshal merupakanan suatu proses yang menterjemahkan dari bentuk byte-stream kedalam tipe objek
+</p>
+</center>
+</ul>
+
+<h4><li>Flatbuffer dan Protocol Buffer</li></h4>
+<ul>
+<li>Apakah outputnya (berikan printscreen)!</li>
+<li>Jelaskan cara kerjanya dan buatlah diagram FSMnya!</li>
+<li>Analisis perbedaan dari protocol buffer dan flatbuffer!</li>
+<center>
+<h5>Jawaban</h5>
+<img src="https://github.com/hafidzilkhairi/Golang-Buffer/blob/task/Screenshots/Client.png?raw=true"/>
+<p align="center">
+Client
+</p>
+<img src="https://github.com/hafidzilkhairi/Golang-Buffer/blob/task/Screenshots/Server.png?raw=true"/>
+<p align="center">
+Server
+</p>
+<p align="justify">
+Perbedaan antara Protocol Buffer dan Flatbuffer adalah:
+<ul>
+<li>
+<p align="justify">
+Buffer harus memparsing secara explisit dan juga menconvert objek secara serial, sedangankan Flatbuffer tidak
+</p>
+</li>
+<li>
+<p align="justify">
+Performa Flatbuffer dalam kegiatan convert lebih bagus dibandingkan Buffer
+</p>
+</li>
+<li>
+<p align="justify">
+Ukuran data Flatbuffer terkadang lebih besar dibandingkan Buffer
+</p>
+</li>
 </ul>
 </p>
-<li>MQTT</li>
-<p>
-<ul>
-<li>Pastikan Mosquitto berjalan</li>
-<li>Jalankan Publisher terlebih dahulu dengan menjalankan perintah "go run publisher.go" pada direktori publisher</li>
-<li>Kemudian jalankan Publisher terlebih dahulu dengan menjalankan perintah "go run subscriber.go" pada direktori subscriber</li>
-<li>subscriber akan mendapatkan pesan yang telah di publish oleh publisher</li>
+</center>
 </ul>
-</p>
-</ol>
 
 </ol>
